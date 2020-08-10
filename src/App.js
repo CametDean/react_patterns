@@ -43,7 +43,7 @@ function App() {
           <TabPanels>
             <TabPanel>
               <h2>Bienvenue dans notre catalogue de composants UI React réutilisables et génériques.</h2>
-              <p>Ici, vous pourrez trouver des composants prêts à l'emploi afin de vous faire gagner du temps sur vos missions ou vous aider à appréhender React si vous débutez avec ce framework.</p>
+              <p>Ici, vous pourrez trouver des composants prêts à l'emploi afin de vous faire gagner du temps sur vos missions ou de vous aider à appréhender React si vous débutez avec ce framework.</p>
             </TabPanel>
             <TabPanel>
               <h2>Accordeon</h2>

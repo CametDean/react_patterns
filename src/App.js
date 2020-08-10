@@ -42,15 +42,22 @@ function App() {
         <div className="content">
           <TabPanels>
             <TabPanel>
-              <h2>Bienvenue dans notre catalogue de composants UI React réutilisables et génériques.</h2>
-              <p>Ici, vous pourrez trouver des composants prêts à l'emploi afin de vous faire gagner du temps sur vos missions ou de vous aider à appréhender React si vous débutez avec ce framework.</p>
+              <h2>Bienvenue sur Get Your React UI Component!</h2>
+              <p>Get Your React UI Component est un catalogue de composants UI React réutilisables et génériques.</p>
+              <p>Grâce à ce catalogue, vous gagnerez du temps sur vos missions ou lors de votre apprentissage de React.</p>
+              <p>En effet, les composants ont été écrits de sorte que leurs interfaces soient claires dès le premier coup d'oeil ce qui permet de s'y retrouver plus facilement. De plus, vous trouverez ici des exemples d'utilisations des composants, ce qui est plus agréable que de devoir copier le code dans son IDE pour voir le résultat</p>
+              <fieldset>
+                <legend>Tips</legend>
+                <p>Vous voulez tester le code par vous-même? Le bouton <span>Essayer!</span> est là pour ça!</p>
+                <p>Un composant vous plaît? Cliquez sur <span>Code source</span> afin de récupérer le fichier contenant l'implémentation du composant.</p>
+              </fieldset>
             </TabPanel>
             <TabPanel>
               <h2>Accordeon</h2>
-              <p>Voici un exemple de l'utilisation de notre composant Accordeon.</p>
+              <p>Voici un exemple de l'utilisation de notre composant Accordeon. Utile pour les Foires aux Questions!</p>
               <div className="accessCodeSource">
-                <a type="button" href="https://github.com/CametDean/react_patterns/blob/master/src/components/Accordeon.js" target="_blank">Code source</a>
-                <a type="button" href="https://codesandbox.io/s/accordeon-final-3nsft?file=/src/App.js:27-112" target="_blank">Essayer!</a>
+                <a type="button" href="https://github.com/CametDean/react_patterns/blob/master/src/components/Accordeon.js" target="_blank" rel="noopener noreferrer">Code source</a>
+                <a type="button" href="https://codesandbox.io/s/accordeon-final-3nsft?file=/src/App.js:27-112" target="_blank" rel="noopener noreferrer">Essayer!</a>
               </div>
               <fieldset>
                 <legend>Exemple</legend>
@@ -77,8 +84,8 @@ function App() {
               <h2>Carousel</h2>
               <p>Voici un exemple de l'utilisation de notre composant Carousel.</p>
               <div className="accessCodeSource">
-                <a type="button" href="https://github.com/CametDean/react_patterns/blob/master/src/components/Carousel.js" target="_blank">Code source</a>
-                <a type="button" href="https://codesandbox.io/s/carrousel-react-h1mxc" target="_blank">Essayer!</a>
+                <a type="button" href="https://github.com/CametDean/react_patterns/blob/master/src/components/Carousel.js" target="_blank" rel="noopener noreferrer">Code source</a>
+                <a type="button" href="https://codesandbox.io/s/carrousel-react-h1mxc" target="_blank" rel="noopener noreferrer">Essayer!</a>
               </div>
               <fieldset>
                 <legend>Exemple</legend>
@@ -104,8 +111,8 @@ function App() {
               <h2>Modal</h2>
               <p>Voici un exemple de l'utilisation de notre composant Modal.</p>
               <div className="accessCodeSource">
-                <a type="button" href="https://github.com/CametDean/react_patterns/blob/master/src/components/Modal.js" target="_blank">Code source</a>
-                <a type="button" href="https://codesandbox.io/s/modal-final-r4w8n?file=/src/App.js:27-76" target="_blank">Essayer!</a>
+                <a type="button" href="https://github.com/CametDean/react_patterns/blob/master/src/components/Modal.js" target="_blank" rel="noopener noreferrer">Code source</a>
+                <a type="button" href="https://codesandbox.io/s/modal-final-r4w8n?file=/src/App.js:27-76" target="_blank" rel="noopener noreferrer">Essayer!</a>
               </div>
               <fieldset>
                 <legend>Exemple</legend>
@@ -132,8 +139,8 @@ function App() {
               <h2>Tabs</h2>
               <p>Voici un exemple d'une utilisation basique de notre composant Tabs. Vous remarquerez l'interface qui détaille clairement et simplement la composition du composant Tabs.</p>
               <div className="accessCodeSource">
-                <a type="button" href="https://github.com/CametDean/react_patterns/blob/master/src/components/Tabs.js" target="_blank">Code source</a>
-                <a type="button" href="https://codesandbox.io/s/tabs-final-7wgnw" target="_blank">Essayer!</a>
+                <a type="button" href="https://github.com/CametDean/react_patterns/blob/master/src/components/Tabs.js" target="_blank" rel="noopener noreferrer">Code source</a>
+                <a type="button" href="https://codesandbox.io/s/tabs-final-7wgnw" target="_blank" rel="noopener noreferrer">Essayer!</a>
               </div>
 
               <fieldset>

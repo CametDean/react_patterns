@@ -9,12 +9,12 @@ export const Modal = ({children, isOpen, onModalClosed}) => {
         })
     })
 
-    return isOpen ? (<div>
+    return isOpen ? (<>
             <Overlay onClick={() => onModalClosed(false)}/>
             <Content>
                 {modalChildren}
             </Content>
-        </div>)
+        </>)
         : null
 }
 

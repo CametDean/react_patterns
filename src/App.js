@@ -49,7 +49,7 @@ function App() {
               <h2>Accordeon</h2>
               <p>Voici un exemple de l'utilisation de notre composant Accordeon.</p>
               <div className="accessCodeSource">
-                <a type="button" href="" target="_blank">Code source</a>
+                <a type="button" href="https://github.com/CametDean/react_patterns/blob/master/src/components/Accordeon.js" target="_blank">Code source</a>
                 <a type="button" href="https://codesandbox.io/s/accordeon-final-3nsft?file=/src/App.js:27-112" target="_blank">Essayer!</a>
               </div>
               <fieldset>
@@ -77,7 +77,7 @@ function App() {
               <h2>Carousel</h2>
               <p>Voici un exemple de l'utilisation de notre composant Carousel.</p>
               <div className="accessCodeSource">
-                <a type="button" href="" target="_blank">Code source</a>
+                <a type="button" href="https://github.com/CametDean/react_patterns/blob/master/src/components/Carousel.js" target="_blank">Code source</a>
                 <a type="button" href="https://codesandbox.io/s/carrousel-react-h1mxc" target="_blank">Essayer!</a>
               </div>
               <fieldset>
@@ -104,7 +104,7 @@ function App() {
               <h2>Modal</h2>
               <p>Voici un exemple de l'utilisation de notre composant Modal.</p>
               <div className="accessCodeSource">
-                <a type="button" href="" target="_blank">Code source</a>
+                <a type="button" href="https://github.com/CametDean/react_patterns/blob/master/src/components/Modal.js" target="_blank">Code source</a>
                 <a type="button" href="https://codesandbox.io/s/modal-final-r4w8n?file=/src/App.js:27-76" target="_blank">Essayer!</a>
               </div>
               <fieldset>
@@ -132,7 +132,7 @@ function App() {
               <h2>Tabs</h2>
               <p>Voici un exemple d'une utilisation basique de notre composant Tabs. Vous remarquerez l'interface qui détaille clairement et simplement la composition du composant Tabs.</p>
               <div className="accessCodeSource">
-                <a type="button" href="" target="_blank">Code source</a>
+                <a type="button" href="https://github.com/CametDean/react_patterns/blob/master/src/components/Tabs.js" target="_blank">Code source</a>
                 <a type="button" href="https://codesandbox.io/s/tabs-final-7wgnw" target="_blank">Essayer!</a>
               </div>
 

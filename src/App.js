@@ -132,11 +132,11 @@ function App() {
                 </Tabs>
                 <Carousel isPlaying={true}>
                   <Slides>
-                    <Slide><img src="https://media.giphy.com/media/mAyKtbkBTTpFm/giphy.gif" alt="Tennant"/></Slide>
-                    <Slide><img src="https://media.giphy.com/media/WjAkQjz7h9ESA/giphy.gif" alt="Smith"/></Slide>
-                    <Slide><img src="https://media.giphy.com/media/4rfTQbT3PKCw8/giphy.gif" alt="Tennant & Smith"/></Slide>
-                    <Slide><img src="https://media.giphy.com/media/siREjlLKjdSZq/giphy.gif" alt="Capaldi"/></Slide>
-                    <Slide><img src="https://media.giphy.com/media/A8NNZlVuA1LoY/giphy.gif" alt="Dalek"/></Slide>
+                    <Slide><img src="https://picsum.photos/id/1002/300" alt="random image"/></Slide>
+                    <Slide><img src="https://picsum.photos/id/1015/300" alt="random image"/></Slide>
+                    <Slide><img src="https://picsum.photos/id/1019/300" alt="random image"/></Slide>
+                    <Slide><img src="https://picsum.photos/id/1022/300" alt="random image"/></Slide>
+                    <Slide><img src="https://picsum.photos/id/1041/300" alt="random image"/></Slide>
                   </Slides>
                   <SlideNav className="SlideNav"/>
                   <div className="SlideControls">
@@ -179,8 +179,8 @@ function App() {
                     onModalClosed={onModalClosed}
                 >
                   <ModalButtonClose>X</ModalButtonClose>
-                  <h2>Kings of Con !</h2>
-                  <img src="https://media.giphy.com/media/3o6ZsSQPLIPBqsbT56/giphy.gif" alt="rob and richard"/>
+                  <h2>Lorem Ipsum !</h2>
+                  <img src="https://picsum.photos/id/1053/500" alt="random"/>
                 </Modal>
               </fieldset>
 

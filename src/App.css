@@ -85,6 +85,10 @@ button{
     cursor: pointer;
 }
 
+.accordeonImg{
+    width: auto;
+}
+
 /******* CAROUSEL *******/
 ul {
     margin: 0;

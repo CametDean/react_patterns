@@ -89,18 +89,30 @@ function App() {
                 </Tabs>
                 <Accordeon>
                   <AccordeonItem>
-                    <AccordeonLabel>Musique</AccordeonLabel>
-                    <AccordeonPanel>Un ptit RuPaul et c'est partit!</AccordeonPanel>
-                  </AccordeonItem>
-                  <AccordeonItem>
-                    <AccordeonLabel>Séries</AccordeonLabel>
-                    <AccordeonPanel>Accro à Netflix :)</AccordeonPanel>
-                  </AccordeonItem>
-                  <AccordeonItem>
-                    <AccordeonLabel>Conventions</AccordeonLabel>
+                    <AccordeonLabel>Lorem ipsum dolor sit amet?</AccordeonLabel>
                     <AccordeonPanel>
-                      <img src="https://media.giphy.com/media/hHzVer05zYv1m/giphy.gif" alt="Misha!!!"/>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo interdum velit.                     </AccordeonPanel>
+                  </AccordeonItem>
+                  <AccordeonItem>
+                    <AccordeonLabel>Ut enim ad minim veniam?</AccordeonLabel>
+                    <AccordeonPanel>
+                      Lorem ipsum dolor sit amet, fermentum dui. Maecenas ultricies mi eget mauris pharetra et                             ultrices neque. Ac tortor vitae purus faucibus ornare suspendisse sed nisi. Ut morbi tincidunt augue                 interdum velit.
                     </AccordeonPanel>
+                  </AccordeonItem>
+                  <AccordeonItem>
+                    <AccordeonLabel>Lorem ipsum dolor sit amet?</AccordeonLabel>
+                    <AccordeonPanel><img className="accordeonImg" src="https://picsum.photos/id/237/300" alt="random"/></AccordeonPanel>
+                  </AccordeonItem>
+                  <AccordeonItem>
+                    <AccordeonLabel>Ut enim ad minim veniam?</AccordeonLabel>
+                    <AccordeonPanel>
+                      Lorem rhoncus est pellentesque elit ullamcorper. Dolor sed viverra ipsum nunc aliquet bibendum enim                   facilisis. Ut morbi tincidunt augue interdum velit.
+                    </AccordeonPanel>
+                  </AccordeonItem>
+                  <AccordeonItem>
+                    <AccordeonLabel>Lorem ipsum dolor sit amet?</AccordeonLabel>
+                    <AccordeonPanel>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo interdum velit.                     </AccordeonPanel>
                   </AccordeonItem>
                 </Accordeon>
               </fieldset>

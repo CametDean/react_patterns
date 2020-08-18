@@ -143,6 +143,10 @@ li {
     margin-left: -4px;
 }
 
+.slide{
+    width: auto;
+}
+
 /******* CONTENT *******/
 h1{
     font-weight: bold;

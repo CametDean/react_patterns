@@ -154,11 +154,11 @@ function App() {
                 </Tabs>
                 <Carousel isPlaying={true}>
                   <Slides>
-                    <Slide><img src="https://picsum.photos/id/1002/300" alt="random image"/></Slide>
-                    <Slide><img src="https://picsum.photos/id/1015/300" alt="random image"/></Slide>
-                    <Slide><img src="https://picsum.photos/id/1019/300" alt="random image"/></Slide>
-                    <Slide><img src="https://picsum.photos/id/1022/300" alt="random image"/></Slide>
-                    <Slide><img src="https://picsum.photos/id/1041/300" alt="random image"/></Slide>
+                    <Slide><img className="slide" src="https://picsum.photos/id/1002/300" alt="random image"/></Slide>
+                    <Slide><img className="slide" src="https://picsum.photos/id/1015/300" alt="random image"/></Slide>
+                    <Slide><img className="slide" src="https://picsum.photos/id/1019/300" alt="random image"/></Slide>
+                    <Slide><img className="slide" src="https://picsum.photos/id/1022/300" alt="random image"/></Slide>
+                    <Slide><img className="slide" src="https://picsum.photos/id/1041/300" alt="random image"/></Slide>
                   </Slides>
                   <SlideNav className="SlideNav"/>
                   <div className="SlideControls">

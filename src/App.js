@@ -22,6 +22,8 @@ import exempleAccordeon from "./img/accordeon.png"
 import exempleAccordeonImplem1 from "./img/implementation/accImpl1.png"
 import exempleAccordeonImplem2 from "./img/implementation/accImpl2.png"
 
+import Select from 'react-select'
+import exempleSelect from "./img/select.png"
 
 import './App.css';
 
@@ -35,6 +37,13 @@ function App() {
   const [isModalOpen, setIsModalOpen] = React.useState(false)
   const onModalClosed = (newValue) => setIsModalOpen(newValue)
 
+  //SELECT
+  const options = [
+    { value: 'chocolate', label: 'Chocolate' },
+    { value: 'strawberry', label: 'Strawberry' },
+    { value: 'vanilla', label: 'Vanilla' }
+  ]
+
   return (
     <div className="App">
       <Tabs>
@@ -46,6 +55,7 @@ function App() {
             <Tab>Carousel</Tab>
             <Tab>Modal</Tab>
             <Tab>Tabs</Tab>
+            <Tab>Select</Tab>
           </TabList>
         </header>
 
@@ -255,6 +265,17 @@ function App() {
                       <TabPanel>Vive le rock français!</TabPanel>
                     </TabPanels>
                 </Tabs>
+              </fieldset>
+            </TabPanel>
+            <TabPanel>
+              <h2>Select</h2>
+              <p>Ce Select n'a pas été implémenté par nos soins. Parfois, quand on se rend compte qu'il existe déjà des composants très bien implémentés, qui couvrent tous les besoins possibles, il ne faut pas avoir honte de les utiliser et de les partager.</p>
+              <p>Ce Select nous est proposé par le site <a href="https://react-select.com/" target="_blank" rel="noopener noreferrer">React-Select</a> sur lequel vous trouverez le code source du composant Select. Vous avez également la possibilité de tester sur codesandbox leurs composants.</p>
+              <fieldset>
+                <legend>Exemple</legend>
+                <p>Après avoir installé react-select : yarn add react-select</p>
+                <img src={exempleSelect} alt="interface d'un select"/>
+                <Select options={options}/>
               </fieldset>
             </TabPanel>
           </TabPanels>

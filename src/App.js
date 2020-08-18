@@ -55,7 +55,7 @@ function App() {
               <h2>Bienvenue sur Get Your React UI Component!</h2>
               <p>Get Your React UI Component est un catalogue de composants UI React réutilisables et génériques.</p>
               <p>Grâce à ce catalogue, vous gagnerez du temps sur vos missions ou lors de votre apprentissage de React.</p>
-              <p>En effet, les composants ont été écrits de sorte que leurs interfaces soient claires dès le premier coup d'oeil ce qui permet de s'y retrouver plus facilement. De plus, vous trouverez ici des exemples d'utilisations des composants, ce qui est plus agréable que de devoir copier le code dans son IDE pour voir le résultat</p>
+              <p>En effet, les composants ont été écrits de sorte que leurs interfaces soient claires dès le premier coup d'oeil ce qui permet de s'y retrouver plus facilement. De plus, vous trouverez ici des exemples d'utilisations des composants, ce qui est plus agréable que de devoir copier le code dans son IDE pour voir le résultat.</p>
               <p>Get Your React UI Component vous propose trois niveaux de lecture : </p>
               <ol>
                 <li>Une lecture seule avec les exemples d'utilisation</li>
@@ -126,7 +126,7 @@ function App() {
                       <img src={exempleCarouselImplem1} alt="implémentation d'un carousel"/>
                       <img src={exempleCarouselImplem2} alt="implémentation d'un carousel"/>
                       <img src={exempleCarouselImplem3} alt="implémentation d'un carousel"/>
-                      <img src={exempleCarouselImplem4} alt="implémentation d'un carousel"/>
+                      <img className="imgCarousel" src={exempleCarouselImplem4} alt="implémentation d'un carousel"/>
                     </TabPanel>
                   </TabPanels>
                 </Tabs>
@@ -187,7 +187,7 @@ function App() {
             </TabPanel>
             <TabPanel>
               <h2>Tabs</h2>
-              <p>Voici un exemple d'une utilisation basique de notre composant Tabs. Vous remarquerez que le fichier Tabs.js reste le même dans les deux exemples.</p>
+              <p>Voici un exemple d'une utilisation basique de notre composant Tabs. Le fichier Tabs.js reste le même dans les deux exemples.</p>
               <p>La particularité de ce composant Tabs est l'utilisation du contexte. On peut, certes, ne pas utiliser le contexte si on décide de ne pas entourer TabList de div. Or, dès l'utilisation de ces div pour styliser TabList, div n'étant pas un enfant de React, il faut obligatoirement utiliser le contexte afin que les enfants de div puisse récupérer les props du composant parent Tabs.</p>
               <p>Autre remarque : il est impossible d'entourer le composant Tab de div. Ce composant a besoin d'être l'enfant direct de TabList afin de récupérer l'activeIndex.</p>
               <div className="accessCodeSource">

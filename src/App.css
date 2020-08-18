@@ -135,6 +135,10 @@ li {
     height: 25px;
 }
 
+.imgCarousel{
+    margin-left: -4px;
+}
+
 /******* CONTENT *******/
 h1{
     font-weight: bold;

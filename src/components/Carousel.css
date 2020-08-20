@@ -1,0 +1,57 @@
+/******* CAROUSEL *******/
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.Slide{
+    z-index: -1;
+}
+
+.SlideNav{
+    display: flex;
+    margin-top: -4rem;
+}
+
+.SlideControls{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    cursor: pointer;
+}
+
+.btn{
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.bullet{
+    width: 10px;
+    height: 10px;
+    background: rgb(226, 225, 225);
+    border-radius: 100px;
+}
+
+.bulletActive{
+    width: 10px;
+    height: 10px;
+    background: darkturquoise;
+    border-radius: 100px;
+}
+
+.btnControls{
+    width: 25px;
+    height: 25px;
+}
+
+.imgCarousel{
+    margin-left: -4px;
+}
+
+.slide{
+    width: auto;
+}

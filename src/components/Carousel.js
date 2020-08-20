@@ -1,4 +1,5 @@
 import React, { useState, useContext, useEffect } from "react"
+import "./Carousel.css"
 
 
 const CarouselContext = React.createContext()

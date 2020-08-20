@@ -1,4 +1,5 @@
 import React, { useState, useContext } from "react";
+import "./Tabs.css"
 
 const TabsContext = React.createContext()
 

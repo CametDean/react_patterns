@@ -1,4 +1,5 @@
 import React from "react";
+import "./Modal.css"
 
 export const Modal = ({children, isOpen, onModalClosed}) => {
     const [isModalOpen, setIsModalOpen] = React.useState(true)

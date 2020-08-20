@@ -16,11 +16,13 @@ import exempleCarouselImplem1 from "./img/implementation/carou1.png"
 import exempleCarouselImplem2 from "./img/implementation/carou2.png"
 import exempleCarouselImplem3 from "./img/implementation/carou3.png"
 import exempleCarouselImplem4 from "./img/implementation/carou4.png"
+//import exempleCarouselCss from "./img/style/carouselCss.png"
 
 import { AccordeonItem, AccordeonLabel, AccordeonPanel, Accordeon }from "./components/Accordeon"
 import exempleAccordeon from "./img/accordeon.png"
-import exempleAccordeonImplem1 from "./img/implementation/accImpl1.png"
-import exempleAccordeonImplem2 from "./img/implementation/accImpl2.png"
+import exempleAccordeonImplem1 from "./img/implementation/accordeonImplem.png"
+import exempleAccordeonCss from "./img/style/accordeonCss.png"
+
 
 import Select from 'react-select'
 import exempleSelect from "./img/select.png"
@@ -81,6 +83,7 @@ function App() {
             <TabPanel>
               <h2>Accordeon</h2>
               <p>Voici un exemple de l'utilisation de notre composant Accordeon. Utile pour les Foires aux Questions!</p>
+              <p>Accordeon prend en option isOpen avec comme valeur l'index de l'AccordeonItem que vous souhaitez avoir ouvert par défaut. Une valeur de -1 indique qu'un item n'est ouvert par défault.</p>
               <div className="accessCodeSource">
                 <a type="button" href="https://github.com/CametDean/react_patterns/blob/master/src/components/Accordeon.js" target="_blank" rel="noopener noreferrer">Code source</a>
                 <a type="button" href="https://codesandbox.io/s/accordeon-final-3nsft?file=/src/App.js:27-112" target="_blank" rel="noopener noreferrer">Essayer!</a>
@@ -91,13 +94,15 @@ function App() {
                   <TabList className="tabList">
                     <Tab>App.js</Tab>
                     <Tab>Accordeon.js</Tab>
+                    <Tab>Accordeon.css</Tab>
                   </TabList>
                   <TabPanels>
                     <TabPanel><img src={exempleAccordeon} alt="interface d'un accordeon"/></TabPanel>
-                    <TabPanel><img src={exempleAccordeonImplem1} alt="implémentation d'un accordeon"/><img src={exempleAccordeonImplem2} alt="interface d'un accordeon"/></TabPanel>
+                    <TabPanel><img src={exempleAccordeonImplem1} alt="implémentation d'un accordeon"/></TabPanel>
+                    <TabPanel><img src={exempleAccordeonCss} alt="style de base d'un accordeon"/></TabPanel>
                   </TabPanels>
                 </Tabs>
-                <Accordeon>
+                <Accordeon isOpen={-1}>
                   <AccordeonItem>
                     <AccordeonLabel>Lorem ipsum dolor sit amet?</AccordeonLabel>
                     <AccordeonPanel>
@@ -111,7 +116,7 @@ function App() {
                   </AccordeonItem>
                   <AccordeonItem>
                     <AccordeonLabel>Lorem ipsum dolor sit amet?</AccordeonLabel>
-                    <AccordeonPanel><img className="accordeonImg" src="https://picsum.photos/id/237/300" alt="random"/></AccordeonPanel>
+                    <AccordeonPanel><img className="accordeon__image" src="https://picsum.photos/id/237/300" alt="random"/></AccordeonPanel>
                   </AccordeonItem>
                   <AccordeonItem>
                     <AccordeonLabel>Ut enim ad minim veniam?</AccordeonLabel>
@@ -154,11 +159,11 @@ function App() {
                 </Tabs>
                 <Carousel isPlaying={true}>
                   <Slides>
-                    <Slide><img className="slide" src="https://picsum.photos/id/1002/300" alt="random image"/></Slide>
-                    <Slide><img className="slide" src="https://picsum.photos/id/1015/300" alt="random image"/></Slide>
-                    <Slide><img className="slide" src="https://picsum.photos/id/1019/300" alt="random image"/></Slide>
-                    <Slide><img className="slide" src="https://picsum.photos/id/1022/300" alt="random image"/></Slide>
-                    <Slide><img className="slide" src="https://picsum.photos/id/1041/300" alt="random image"/></Slide>
+                    <Slide><img className="slide" src="https://picsum.photos/id/1002/300" alt="random"/></Slide>
+                    <Slide><img className="slide" src="https://picsum.photos/id/1015/300" alt="random"/></Slide>
+                    <Slide><img className="slide" src="https://picsum.photos/id/1019/300" alt="random"/></Slide>
+                    <Slide><img className="slide" src="https://picsum.photos/id/1022/300" alt="random"/></Slide>
+                    <Slide><img className="slide" src="https://picsum.photos/id/1041/300" alt="random"/></Slide>
                   </Slides>
                   <SlideNav className="SlideNav"/>
                   <div className="SlideControls">

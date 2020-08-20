@@ -1,52 +1,47 @@
 import React, { useState } from "react";
+import "./Accordeon.css";
 
-export const Accordeon = ({children}) => {
+export const Accordeon = ({children, isOpen = 0}) => {
 
-    const [activeIndex, setActiveIndex] = useState(0)
+    const [activeIndex, setActiveIndex] = useState(isOpen)
 
-    const AccChildren = React.Children.map(children, (child, index) => {
+    const AccordeonChildren = React.Children.map(children, (child, index) => {
         if (child.type === AccordeonItem){
             return React.cloneElement(child, {
                 activeIndex: activeIndex,
-                indexAccItem: index,
+                indexAccordeonItem: index,
                 onActiveLabel: (index) => {setActiveIndex(index); return console.log(index)}
             })
-        }else{
-            return child
         }
+        return child
     })
-    return <div>{AccChildren}</div>
+    return <div className="accordeon">{AccordeonChildren}</div>
 }
 
 
-export const AccordeonItem = ({children, activeIndex, indexAccItem, onActiveLabel}) => {
+export const AccordeonItem = ({children, activeIndex, indexAccordeonItem, onActiveLabel}) => {
 
-    const AccItemChildren = React.Children.map(children, (child) => {
+    const AccordeonItemChildren = React.Children.map(children, (child) => {
         return React.cloneElement(child, {
-            isActive: activeIndex === indexAccItem,
-            onActivate: () => onActiveLabel(indexAccItem),
+            isActive: activeIndex === indexAccordeonItem,
+            onActivate: () => onActiveLabel(indexAccordeonItem),
         })
     })
-    return <div>{AccItemChildren}</div>
+    return <div className="accordeon__item">{AccordeonItemChildren}</div>
 }
 
 
 export const AccordeonLabel = ({children, isActive, onActivate}) => {
 
-    const className = isActive ? "isButtonActive" : "isButtonInactive"
-    return <div>
-        <button
-            onClick={() => onActivate()}
-            className={className}
-        >
-            {children}
-        </button>
-    </div>
+    return <button
+        onClick={() => onActivate()}
+        className={isActive ? 'accordeon__label isButtonActive' : 'accordeon__label isButtonInactive'}
+    >
+        {children}
+    </button>
 }
 
 
 export const AccordeonPanel = ({children, isActive}) => {
-
-    const render = children
-    return <div>{isActive && render}</div>
+    return isActive && <div className="accordeon__panel">{children}</div>
 }

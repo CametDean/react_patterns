@@ -1,0 +1,24 @@
+/******* TABS ********/
+.tabList{
+    display: flex;
+}
+
+.tab{
+    padding: 1rem;
+    border-radius: 10px;
+    background: lightgrey;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.tab:hover{
+    background: lightblue;
+}
+
+.isActive{
+    background: darkturquoise;
+}
+
+.tab-panel{
+    margin-top: 1rem;
+}
